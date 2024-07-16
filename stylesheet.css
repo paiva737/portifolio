@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    padding: 0;
+   background-color: #E0ffff;
+ 
+    .h1,h2{
+        color: #000;
+    }
+}
+.portifolio{
+    text-align: center;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nome{
+    text-align: center;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#foto{
+    
+    width: 400px;  
+    height: 400px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 2px solid #000; 
+    justify-content: center;
+    }
+
+    .logos{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid #000;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    #botaoWhatsapp{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid #000;
+        justify-content: center;
+        cursor: pointer;
+    }
+    #botaoLinkedin{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid #000;
+        justify-content: center;
+        cursor: pointer;
+    }
+    #botaoGmail{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid #000;
+        justify-content: center;
+        cursor: pointer;
+    }
+    #botaoGitHub{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid #000;
+        justify-content: center;
+        cursor: pointer;
+    }
+.sobre{
+   
+    color: #008B8B;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding: 10px;
+    
+}
+
+.container2{
+    position: flex;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+  
+}
+
+#javascript{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #000;
+    justify-content: center;
+}
+
+#html{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #000;
+    justify-content: center;
+}
+
+#css{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #000;
+    justify-content: center;
+}
+#typescript{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #000;
+    justify-content: center;
+    
+}
+footer{
+    
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 300px;
+    margin: 0;
+
+}
+
+.footer-content{
+    width: 100%;
+    padding: 0;
+  margin: 0;
+}
+
+#contato{
+   padding-top: 50px;
+   width: 100%;
+   height: 100%;
+ 
+}
+
